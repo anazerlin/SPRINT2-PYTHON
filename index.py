@@ -10,6 +10,19 @@ if respostaCadastro != "nao":
 else:
     print("Ok! Programa encerrado!")
 
+print("Cadastro feito! Voce deseja fazer o seu login?")
+respostaLogin = input()
+
+if respostaLogin == "sim":
+    print("Por favor, insira o seu nome de usuario.")
+    nomeUsuario = input()
+    print("Agora, digite a sua senha numerica.")
+    senhaUsuario = int(input())
+else:
+    print("Ok! Programa encerrado. Ate mais!")
+
+
+
 
 
 

@@ -18,17 +18,10 @@ if respostaLogin == "sim":
     nomeUsuario = input()
     print("Agora, digite a sua senha numerica.")
     senhaUsuario = int(input())
+
+    print(f"Seja bem vindo ao seu perfil, {nomeUsuario}.")
 else:
-    print("Ok! Programa encerrado. Ate mais!")
-
-
-
-
-
-
-
-# if 
-# print(f"Seja bem vindo ao seu perfil, {nomeUsuario}.")
+    print(f"Ok! Programa encerrado. Ate mais, {nomeUsuario}!")
 
 
 #CONSTRUINDO UMA FUNÇÃO DE MENU COM LOOPS:
